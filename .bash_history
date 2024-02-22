@@ -1,26 +1,3 @@
-vim p1.py
-python3 p1.py
-vim p1.py
-python3 p1.py
-vim p1.py
-python3 p1.py
-vim p1.py
-python3 p1.py
-vim p1.py
-python3 p1.py
-vim p1.py
-python3 p1.py
-vim p1.py
-python3 p1.py
-vim p1.py
-python3 p1.py
-vim p1.py
-python3 p1.py
-vim p1.py
-python3 p1.py
-vim p1.py
-python3 p1.py
-vim p1.py
 python3 p1.py
 vim p1.py
 
@@ -1998,3 +1975,26 @@ javac p5.java
 java p5
 vim p5.java
 vim p6.java
+sudo apt update
+sudo apt install git
+git config --global user.name Shahuraj04
+git config --global user.email shahurajbhoite04@gmail.com
+git clone https://github.com/Shahuraj04/c2w.git
+git init
+git add .
+git remote add origin https://github.com/Shahuraj04/c2w.git
+git add .
+git commit -m "22/2"
+git push -u origin main
+git remote -v
+git checkout master
+git branch -m master main
+git push -u origin main
+git credential approve < echo "protocol=https" ; echo "host=github.com" ; echo "username=Shahuraj04" ; echo "password=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"
+git add .
+git commit -m "22/2"
+git push -u origin main
+git credential-cache store
+git config --global credential.helper store
+git credential approve < echo "protocol=https" ; echo "host=github.com" ; echo "username=Shahuraj04" ; echo "password=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"
+nano ~/.git-credentials
